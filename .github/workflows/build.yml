@@ -3,8 +3,8 @@ on:
   push:
     branches:
       - master
-      - '*.*.*_release'
-      - '*.*.*_rel'
+      - 'refs/heads/*.*.*_release'
+      - 'refs/heads/*.*.*_rel'
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
