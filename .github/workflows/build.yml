@@ -1,15 +1,9 @@
 name: Build
 on:
   push:
-    branches:
-      - master
-      - '*.*.*_release'
-      - '*.*.*_rel'
+    branches: [master, '*.*.*_release', '*.*.*_rel']
   pull_request:
-    branches:
-      - master
-      - '*.*.*_release'
-      - '*.*.*_rel'  
+    branches: [master, '*.*.*_release', '*.*.*_rel']
     types: [opened, synchronize, reopened]
 jobs:
   sonarcloud:
