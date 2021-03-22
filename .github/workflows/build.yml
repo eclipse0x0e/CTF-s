@@ -6,6 +6,10 @@ on:
       - '*.*.*_release'
       - '*.*.*_rel'
   pull_request:
+    branches:
+      - master
+      - '*.*.*_release'
+      - '*.*.*_rel'  
     types: [opened, synchronize, reopened]
 jobs:
   sonarcloud:
