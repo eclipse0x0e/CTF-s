@@ -1,2 +1,2 @@
-# CTF-s
-Solutions for some ctf challanges
+## CTF-s
+Solutions for some ctf challanges.
